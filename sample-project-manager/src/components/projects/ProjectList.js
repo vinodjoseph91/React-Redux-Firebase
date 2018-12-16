@@ -11,6 +11,23 @@ const ProjectList = () => {
                     <p className="grey-text">16th December , 6:30 pm</p>
                 </div>
             </div>
+
+            <div className="card z-depth-0 project-summary">
+                <div className="card-content grey-text text-darken-3">
+                    <span className="card-title">Second Title</span>
+                    <p>Posted by some user</p>
+                    <p className="grey-text">16th December , 6:40 pm</p>
+                </div>
+            </div>
+
+            <div className="card z-depth-0 project-summary">
+                <div className="card-content grey-text text-darken-3">
+                    <span className="card-title">Third Title</span>
+                    <p>Posted by some user</p>
+                    <p className="grey-text">16th December , 6:45 pm</p>
+                </div>
+            </div>
+
         </div>
     );
 
