@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import { BrowserRouter } from 'react-router-dom';
+import Navbar from './components/layout/Navbar';
+import NavBar from './components/layout/Navbar';
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <div className="App">
-          <h1>Project manager</h1>
+          <NavBar/>
         </div>
       </BrowserRouter>
     );
